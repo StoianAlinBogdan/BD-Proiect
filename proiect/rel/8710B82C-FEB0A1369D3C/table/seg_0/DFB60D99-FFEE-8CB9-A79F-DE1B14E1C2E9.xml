@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DFB60D99-FFEE-8CB9-A79F-DE1B14E1C2E9" name="misiuni">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-30 21:05:48 UTC</createdTime>
+<generatorID>872770FA-603B-E41A-D761-6BE616D06633</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_misiune" id="F7B68016-B599-96D3-4D00-0049F6FB6810">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-30 21:05:48 UTC</createdTime>
+<generatorID>506D6AAE-BDBF-7ECB-2D09-44DEA5FC41DE</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nume_misiune" id="143B0829-523D-3D5B-F049-9EAEB9EE4854">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-30 21:05:48 UTC</createdTime>
+<generatorID>AF63247B-9530-C013-2727-054147B98CB3</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_inceperii" id="D9F3C0A8-1A3A-7EB1-8675-452ECC154CC9">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-30 21:05:48 UTC</createdTime>
+<generatorID>3A23D515-6247-6DC5-99A5-BB9FCDAD848F</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deadline_lansare" id="843BA78B-6B07-A08E-0BD3-A84EAAC5BF3A">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-30 21:05:48 UTC</createdTime>
+<generatorID>2B8033E9-D16A-3341-C3D6-446DF7A908D9</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_locatie" id="2236B742-BDBD-7B3E-E66B-99A6BFA83510">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-30 21:05:48 UTC</createdTime>
+<generatorID>F0056677-1BD2-FF71-8403-9227D98C038E</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="698B4FAC-B03E-6890-0D2E-AB97BD7E3B37" referredColumn="72FBDDFD-ED69-1A93-5F1B-2CE83BC3C797"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56F18038-14EF-DCBE-1D40-C61A6D8B8A0F" name="Misiuni_PK">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-30 21:05:48 UTC</createdTime>
+<generatorID>8D97EDBA-A576-D4AF-5343-7100A5895DBE</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7B68016-B599-96D3-4D00-0049F6FB6810"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E44AAF3-752E-9CCA-BB58-A398460A844D" name="misiuni__IDX">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-30 21:05:48 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>912436EE-4967-DB7F-9DCB-F30910A8A691</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="2236B742-BDBD-7B3E-E66B-99A6BFA83510"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1CBF0097-4DBF-02DB-B7F5-FBBFB1BFEEFB" name="locatii_misiuni_FK">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-30 21:05:48 UTC</createdTime>
+<generatorID>912436EE-4967-DB7F-9DCB-F30910A8A691</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2236B742-BDBD-7B3E-E66B-99A6BFA83510"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

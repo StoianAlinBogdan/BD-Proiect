@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A39DE971-80C9-DF8E-4163-D50317ABCBAB" name="agentii">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-24 12:16:35 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="F55B40C1-1C63-E5CE-84BF-54B099D894F6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="acronim_agentie" id="16464710-3CB0-2EB8-B21A-DA4ED7335B84">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-24 12:18:51 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="F55B40C1-1C63-E5CE-84BF-54B099D894F6" value="true"/>
+</engineerTo>
+<constraintName>Agentii_acronim_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="length(acronim_agentie)&gt;2"/>
+</checkConstraint>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nume_agentie" id="09ADF0A9-CAE7-8217-3246-F7C2D5E654AE">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-24 12:27:21 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="F55B40C1-1C63-E5CE-84BF-54B099D894F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fonduri" id="6D24C4FD-D920-7312-E01A-350E1C479899">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-24 12:27:48 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="F55B40C1-1C63-E5CE-84BF-54B099D894F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FB31AC12-6A4D-789D-3EA4-ACF2B0718890" name="Agentii PK">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-24 12:22:06 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="F55B40C1-1C63-E5CE-84BF-54B099D894F6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>16464710-3CB0-2EB8-B21A-DA4ED7335B84</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

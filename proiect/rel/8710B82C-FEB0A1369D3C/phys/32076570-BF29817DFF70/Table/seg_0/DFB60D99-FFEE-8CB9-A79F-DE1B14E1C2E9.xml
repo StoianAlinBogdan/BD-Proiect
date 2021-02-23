@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="misiuni" directorySegmentName="seg_0" id="DFB60D99-FFEE-8CB9-A79F-DE1B14E1C2E9">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="nume_misiune" id="143B0829-523D-3D5B-F049-9EAEB9EE4854">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_locatie" id="2236B742-BDBD-7B3E-E66B-99A6BFA83510">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="deadline_lansare" id="843BA78B-6B07-A08E-0BD3-A84EAAC5BF3A">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="data_inceperii" id="D9F3C0A8-1A3A-7EB1-8675-452ECC154CC9">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_misiune" id="F7B68016-B599-96D3-4D00-0049F6FB6810">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="misiuni__IDX" id="9E44AAF3-752E-9CCA-BB58-A398460A844D">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="locatii_misiuni_FK" id="1CBF0097-4DBF-02DB-B7F5-FBBFB1BFEEFB">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Misiuni_PK" id="56F18038-14EF-DCBE-1D40-C61A6D8B8A0F">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

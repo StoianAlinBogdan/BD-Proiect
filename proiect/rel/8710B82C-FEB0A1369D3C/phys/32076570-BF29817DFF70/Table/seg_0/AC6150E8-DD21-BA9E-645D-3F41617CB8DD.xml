@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="astronauti" directorySegmentName="seg_0" id="AC6150E8-DD21-BA9E-645D-3F41617CB8DD">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_misiune" id="04EB19C8-F44D-84F7-4D8C-AC95D8348C67">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="inaltime" id="2C9CCFD2-108B-834F-3E57-C7A8E4B2E8FE">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="acronim_agentie" id="47AF57D3-F4D5-7C00-6CBF-179845234DCA">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="masa" id="5239C4BD-7A7E-002F-4013-502DEEDC06E9">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="specializare_astronaut" id="718767FC-72B8-7B2B-71F7-8872739F0098">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_astronaut" id="D2CF5753-955F-441B-1B3C-176D3C240532">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nume_astronaut" id="D3B4D00F-C67E-7A64-5547-DFE6A6E5A16B">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="varsta" id="F82BBDD8-2866-CB43-3319-93D0D81E325A">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="misiuni_astronauti_FK" id="2E9DED55-5CA5-BEDD-C025-FDE004460C80">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="agentii_astronauti_FK" id="5522A606-C1B5-911A-FBD0-982B3AE8203C">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Astronauti_PK" id="BEEFAEE2-57CE-D3F5-EF76-C0FC13ADADF4">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

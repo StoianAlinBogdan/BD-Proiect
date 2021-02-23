@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="locatii" directorySegmentName="seg_0" id="4FB35356-B212-B197-80CC-F9885618DFB9">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="nume_locatie" id="4D4C3859-E0A6-711D-4AEC-F4DF4F4CAB11">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_locatie" id="72FBDDFD-ED69-1A93-5F1B-2CE83BC3C797">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="abreviere_catalog" id="FD8B83E7-793E-D20D-D8A7-D2157D11272E">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="cataloage_locatii_FK" id="2DAF1157-CA8D-A1B3-1608-704F357244A5">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Locatii_PK" id="A1AF203F-CFD9-18C1-8F3A-4447BEF61412">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

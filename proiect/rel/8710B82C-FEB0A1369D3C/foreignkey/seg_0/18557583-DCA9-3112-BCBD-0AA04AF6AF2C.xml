@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="18557583-DCA9-3112-BCBD-0AA04AF6AF2C" containerWithKeyObject="A4CDE2AD-0197-A691-3AC4-190DA0AB18DC" localFKIndex="0F31573D-1E9D-BB32-3E23-E4C58C252D02" name="agentii_astronauti_FKv2">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-30 21:05:48 UTC</createdTime>
+<generatorID>2B55F852-397E-722C-AC70-7B8E81CAD74C</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<referredTableLongName>agentii</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B0DFB0E4-E3F6-EBDA-77F0-82E650BFC878</referredTableID>
+<keyObject>D4BD43AD-B697-BE28-74CB-57269A693398</keyObject>
+<referredKeyID>D4BD43AD-B697-BE28-74CB-57269A693398</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>acronim_agentie</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

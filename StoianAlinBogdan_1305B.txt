@@ -1,0 +1,17 @@
+Baza de date agentie spatiala - partea operationala (misiuni spatiale, astronauti, membri de echipa impartiti pe misiune, proiecte in dezvoltare, plus astre ceresti monitorizate, unde se vor intampla ulterior misiuni)
+
+Tabela centrala a bazei de date va fi tabela de misiuni
+
+O misiune este descrisa de astronautii care sunt activi pentru acea misiune si de tehnicienii care au lucrat la acea misiune, in orice parte a ei. O misiune mai este descrisa de data inceperii proiectului, o data a lansarii, o suma de fonduri pentru acea misiune, dar si locatia unde se va intampla misiunea. Locatia va fi luata dintr-o tabela de astre ceresti monitorizate de catre agentia spatiala. Mai multe agentii se pot implica in acelasi timp pentru o misiune. Mai multi tehnicieni pot lucra in acelasi timp la mai multe misiuni. Astronautii pot sa participe in misiune sau nu (majoritatea misiunilor nu au astronauti)
+
+Astronauti -> Pentru astronauti, datele biometrice sunt mult mai importante decat pentru tehnicieni. Astronautii sunt descrisi de nume, masa corporala, inaltime, varsta, experienta, dar si domeniul lor de specializare (astronautii sunt, in general, oameni de stiinta). Fiecare astronaut apartine unei agentii.
+
+Tehnicieni -> tehnicienii sunt descrisi de numele lor, agentia din care fac parte, dar si specializarea lor (ingineri de diferite tipuri, etc.)
+
+Agentii -> agentiile sunt descrise de numele si acronimul lor specific. Pentru baza noastra de date, vom include si fondurile investite de catre fiecare agentie. (Vrem sa cunoastem atat fondurile totale pentru misiune, care va fi suma totala a fondurilor investite de diferitele agentii, cat si valoarea fondurilor fiecarei agentii, separat)
+
+Locatii  -> locatiile (obiectele astronomice) sunt descrise de numele lor (in limba engleza), tipul acestora si catalogul in care se afla alte detalii despre ele. 
+
+
+Cataloage -> exista mai multe cataloage de obiecte astronomice, fiecare catalogand, in general, un tip diferit de obiect astronomic (de exemplu, lista azophi descrie numai stele, pe cand catalogul messier contine numai galaxii). Cataloagele sunt descrise de numele lor si de tipul de astre pe care le catalogheaza. Cataloagele de obicei sunt updatate si imbunatatite chiar de catre agentiile spatiale. 
+

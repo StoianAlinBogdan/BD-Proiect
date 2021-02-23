@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9D8A7435-7285-4E42-E857-F3F291554AE3" containerWithKeyObject="AC6150E8-DD21-BA9E-645D-3F41617CB8DD" localFKIndex="2E9DED55-5CA5-BEDD-C025-FDE004460C80" name="misiuni_astronauti_FK">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-30 21:05:48 UTC</createdTime>
+<generatorID>B129FEEA-31F1-314C-1839-FAB7535DF561</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<referredTableLongName>misiuni</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DFB60D99-FFEE-8CB9-A79F-DE1B14E1C2E9</referredTableID>
+<keyObject>56F18038-14EF-DCBE-1D40-C61A6D8B8A0F</keyObject>
+<referredKeyID>56F18038-14EF-DCBE-1D40-C61A6D8B8A0F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_misiune</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

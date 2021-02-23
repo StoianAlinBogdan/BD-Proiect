@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="93BE852B-0033-81EB-CF2D-8B33878A199B" containerWithKeyObject="4FB35356-B212-B197-80CC-F9885618DFB9" localFKIndex="2DAF1157-CA8D-A1B3-1608-704F357244A5" name="cataloage_locatii_FK">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-30 21:05:48 UTC</createdTime>
+<generatorID>22DA619E-CD1C-0429-0E50-34ADAC8B420B</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<referredTableLongName>cataloage</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>38B3E969-AF44-716F-775B-844D46BC03AA</referredTableID>
+<keyObject>02B9611A-DC17-BF75-5DAF-8E50BD73A100</keyObject>
+<referredKeyID>02B9611A-DC17-BF75-5DAF-8E50BD73A100</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>abreviere_catalog</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

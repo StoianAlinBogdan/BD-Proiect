@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="872770FA-603B-E41A-D761-6BE616D06633" name="misiuni">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-24 12:15:54 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="F55B40C1-1C63-E5CE-84BF-54B099D894F6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_misiune" id="506D6AAE-BDBF-7ECB-2D09-44DEA5FC41DE">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-24 13:14:51 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="F55B40C1-1C63-E5CE-84BF-54B099D894F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nume_misiune" id="AF63247B-9530-C013-2727-054147B98CB3">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-24 13:15:03 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="F55B40C1-1C63-E5CE-84BF-54B099D894F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_inceperii" id="3A23D515-6247-6DC5-99A5-BB9FCDAD848F">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-24 13:15:19 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="F55B40C1-1C63-E5CE-84BF-54B099D894F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="deadline_lansare" id="2B8033E9-D16A-3341-C3D6-446DF7A908D9">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-26 11:35:32 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="F55B40C1-1C63-E5CE-84BF-54B099D894F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_locatie" id="F0056677-1BD2-FF71-8403-9227D98C038E">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-28 17:30:58 UTC</createdTime>
+<generatorID>912436EE-4967-DB7F-9DCB-F30910A8A691</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="F55B40C1-1C63-E5CE-84BF-54B099D894F6" value="true"/>
+</engineerTo>
+<referedAttribute>22223C92-C29C-E583-2286-6B043408339E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8D97EDBA-A576-D4AF-5343-7100A5895DBE" name="Misiuni PK">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-24 13:15:01 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="F55B40C1-1C63-E5CE-84BF-54B099D894F6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>506D6AAE-BDBF-7ECB-2D09-44DEA5FC41DE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

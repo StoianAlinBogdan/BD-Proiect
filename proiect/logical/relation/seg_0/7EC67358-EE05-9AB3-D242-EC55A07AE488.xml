@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="misiuni_tehnicieni_FK" directorySegmentName="seg_0" id="7EC67358-EE05-9AB3-D242-EC55A07AE488">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-27 07:52:38 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="F55B40C1-1C63-E5CE-84BF-54B099D894F6" value="true"/>
+</engineerTo>
+<sourcePk>8D97EDBA-A576-D4AF-5343-7100A5895DBE</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>are</nameOnSource>
+<nameOnTarget>lucreaza la o</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>872770FA-603B-E41A-D761-6BE616D06633</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1E483F7F-DBD4-F2C9-BEA6-73C82A96BBB2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

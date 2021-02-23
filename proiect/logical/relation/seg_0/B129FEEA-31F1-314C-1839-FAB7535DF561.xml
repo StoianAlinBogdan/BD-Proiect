@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="misiuni_astronauti_FK" directorySegmentName="seg_0" id="B129FEEA-31F1-314C-1839-FAB7535DF561">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-26 13:01:59 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="F55B40C1-1C63-E5CE-84BF-54B099D894F6" value="true"/>
+</engineerTo>
+<sourcePk>8D97EDBA-A576-D4AF-5343-7100A5895DBE</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>are</nameOnSource>
+<nameOnTarget>lucreaza la o</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>872770FA-603B-E41A-D761-6BE616D06633</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>785C689C-3F99-EE27-C924-1E4D37200CAE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

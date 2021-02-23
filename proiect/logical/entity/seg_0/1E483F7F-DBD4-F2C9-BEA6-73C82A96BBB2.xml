@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1E483F7F-DBD4-F2C9-BEA6-73C82A96BBB2" name="tehnicieni">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-24 12:16:25 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="F55B40C1-1C63-E5CE-84BF-54B099D894F6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tehnician" id="7DA7B701-B7A4-975C-BEFF-90E412618E80">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-24 12:57:00 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="F55B40C1-1C63-E5CE-84BF-54B099D894F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nume_tehnician" id="640F227C-8D5A-7B96-389F-B658E2AA7137">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-24 12:57:19 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="F55B40C1-1C63-E5CE-84BF-54B099D894F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="specializare_tehnician" id="4F9D46ED-8085-4A10-F081-B38ABC91A474">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-24 13:00:05 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="F55B40C1-1C63-E5CE-84BF-54B099D894F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_misiune" id="6C0D2788-0D82-7B5C-1E0C-D81378CC4CE6">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-27 07:52:38 UTC</createdTime>
+<generatorID>7EC67358-EE05-9AB3-D242-EC55A07AE488</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="F55B40C1-1C63-E5CE-84BF-54B099D894F6" value="true"/>
+</engineerTo>
+<referedAttribute>506D6AAE-BDBF-7ECB-2D09-44DEA5FC41DE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="acronim_agentie" id="1A97009E-F1A4-AEF1-A1B2-230812B17A1E">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-28 17:13:20 UTC</createdTime>
+<generatorID>2B55F852-397E-722C-AC70-7B8E81CAD74C</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="F55B40C1-1C63-E5CE-84BF-54B099D894F6" value="true"/>
+</engineerTo>
+<referedAttribute>16464710-3CB0-2EB8-B21A-DA4ED7335B84</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BDF9002F-EAD4-34C6-3F3A-E915184CF780" name="Tehnicieni PK">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-24 12:57:07 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="F55B40C1-1C63-E5CE-84BF-54B099D894F6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7DA7B701-B7A4-975C-BEFF-90E412618E80</attributeRef>
+<attributeRef>6C0D2788-0D82-7B5C-1E0C-D81378CC4CE6</attributeRef>
+<attributeRef>1A97009E-F1A4-AEF1-A1B2-230812B17A1E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="tehnicieni" directorySegmentName="seg_0" id="A4CDE2AD-0197-A691-3AC4-190DA0AB18DC">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="specializare_tehnician" id="2B0E24C1-3795-68F1-C1FF-441ED57994DE">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_misiune" id="6F8ADB50-1F48-9F43-C01B-46ECB666E8CB">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_tehnician" id="94D48B86-67AA-46AB-572C-7A770434F75D">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="acronim_agentie" id="A203D297-2345-2D2A-1601-E82919BC0D80">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nume_tehnician" id="AC137FCA-9205-726F-3632-F20381AC6F74">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="agentii_astronauti_FKv2" id="0F31573D-1E9D-BB32-3E23-E4C58C252D02">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="misiuni_tehnicieni_FK" id="1D4FB3FC-28CD-9A97-3CFC-265391ACEFB2">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Tehnicieni_PK" id="D1A60AE7-5FDA-AAD1-7147-FD24353ED720">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

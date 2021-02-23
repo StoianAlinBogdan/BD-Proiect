@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="cataloage" directorySegmentName="seg_0" id="38B3E969-AF44-716F-775B-844D46BC03AA">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="abreviere_catalog" id="111EDDE3-FEF8-A50E-E203-F8C2F2BD16D2">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="detalii" id="6C359A00-1726-6FDE-F242-174C6DA38130">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nume_catalog" id="7498E6A2-7A1E-5C9C-A10F-A1AC7320B00A">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Cataloage_PK" id="02B9611A-DC17-BF75-5DAF-8E50BD73A100">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-12-01 15:57:18 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="locatii_misiuni_FK" directorySegmentName="seg_0" id="912436EE-4967-DB7F-9DCB-F30910A8A691">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-28 17:30:58 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="F55B40C1-1C63-E5CE-84BF-54B099D894F6" value="true"/>
+</engineerTo>
+<sourcePk>11F136EA-A850-FE39-0B30-6D94C2A28879</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>are o</nameOnSource>
+<nameOnTarget>se intampla la</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>15409FB6-BC50-06B7-FD9B-7E73E3BB5DF5</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>872770FA-603B-E41A-D761-6BE616D06633</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

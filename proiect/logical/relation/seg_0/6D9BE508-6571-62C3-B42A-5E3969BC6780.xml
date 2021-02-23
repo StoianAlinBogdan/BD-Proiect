@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="agentii_astronauti_FK" directorySegmentName="seg_0" id="6D9BE508-6571-62C3-B42A-5E3969BC6780">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2020-11-28 17:12:43 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="F55B40C1-1C63-E5CE-84BF-54B099D894F6" value="true"/>
+</engineerTo>
+<sourcePk>FB31AC12-6A4D-789D-3EA4-ACF2B0718890</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>are</nameOnSource>
+<nameOnTarget>apartin unei</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A39DE971-80C9-DF8E-4163-D50317ABCBAB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>785C689C-3F99-EE27-C924-1E4D37200CAE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
